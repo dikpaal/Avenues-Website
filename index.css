@@ -1,0 +1,113 @@
+body {
+    background-image: url("avenues.jpeg");
+    backdrop-filter: blur(2px);
+    background-size: 1479px;
+    background-position: left top right top;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 8%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+
+.AllTheTabs {
+    position: relative;
+}
+
+#SearchBar {
+    position: absolute;
+    text-align: right;
+    right: 40px;
+    top: 40px;
+}
+
+.HT {
+    position: absolute;
+    left: 25%;
+    top: 60px;
+    cursor: pointer;
+    width: 12%;
+    height: 370%;
+}
+
+.NT {
+    position: absolute;
+    left: 37%;
+    top: 60px;
+    width: 12%;
+    cursor: pointer;
+    height: 370%;
+}
+
+.AC {
+    position: absolute;
+    left: 49%;
+    top: 60px;
+    width: 12%;
+    height: 370%;
+    cursor: pointer;
+}
+
+.PC {
+    position: absolute;
+    left: 61%;
+    top: 60px;
+    width: 12%;
+    height: 370%;
+    cursor: pointer;
+}
+
+.MallText {
+    padding-top: 23%;
+    text-align: center;
+}
+
+.AboutText {
+    padding-top: 40%;
+    text-align: right;
+    padding-left: 50%;
+    padding-right: 15%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Features {
+    padding-top: 300px;
+    font-size: 25px;
+    font-family: "Lucida Handwriting", Cursive;
+    text-align: center;
+}
+
+.FeaturesText {
+    padding-top: 60px;
+    font-size: 20px;
+    line-height: 28px;
+    padding-right: 8%;
+    padding-left: 9%;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    padding: 5em;
+    border: 3px solid black;
+    margin-inline: 5em;
+    text-align: center;
+    height: 10em;
+    /* Remove height after adding the text and content in the element */
+}
+
+@media only screen and (max-width: 1320px) {
+    .container {
+        flex-direction: column;
+        margin-block: 5em;
+    }
+}
